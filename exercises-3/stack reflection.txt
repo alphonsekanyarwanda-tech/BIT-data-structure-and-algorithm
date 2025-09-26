@@ -1,0 +1,2 @@
+reflection : stack can not model fairness because it flows LIFO,
+where the last element gets served first, un like afair line

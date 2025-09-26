@@ -1,0 +1,55 @@
+TO REVERSE "QUEUEFIFO" using stack
+step1: define stack
+stack =[]
+step2: push every letter in stack
+stack.append(Q)
+stack.append(U)
+stack.append(E)
+stack.append(U)
+stack.append(E)
+stack.append(F)
+stack.append(I)
+stack.append(F)
+stack.append(0)
+
+print(stack)
+step 3: we pop the stack but keep every popped element in other stack
+reve_stack = [
+stack.pop(),
+stack.pop(),
+stack.pop(),
+stack.pop(),
+stack.pop(),
+stack.pop(),
+stack.pop(),
+stack.pop(),
+stack.pop(),
+]
+step4: print the new stack
+print(rev_stack)
+# python code
+stack =[]
+stack.append("Q")
+stack.append("U")
+stack.append(E")
+stack.append("U")
+stack.append("E")
+stack.append("F")
+stack.append("I")
+stack.append("F")
+stack.append("O")
+print(stack)
+
+rev_stack = [
+
+stack.pop(),
+stack.pop(),
+stack.pop(),
+stack.pop(),
+stack.pop(),
+stack.pop(),
+stack.pop(),
+stack.pop(),
+stack.pop(),
+]
+print (rev_stack)

@@ -1,0 +1,2 @@
+reflection: FIFO builds trust in elections because everyone is served fairly
+according to arrival order
